@@ -18,19 +18,20 @@
         </div>
         <div class="half-width">
           <label for="name">Имя путешественника</label>
-          <input type="text" name="name" value="Кекс" required>
+          <input type="text" name="name" value="Виталий" required>
         </div>
         </fieldset>
         <fieldset>
         <legend>Отзыв о поездке</legend>
         <div class="half-width">
           <label for="country">Страна визита</label>
-          <input type="text" name="country" value="Норвегия" required>
+          <input type="text" name="country" value="Россия" required>
         </div>
         <div class="half-width">
           <label for="city">Город</label>
-          <select id="city" name="city">
-          <option value="Oslo">Осло</option>
+          <select id="city" name="city"> 
+          <option value="Novosibirsk">Новосибирск</option>
+          <option value="Moscow">Москва</option>
           </select>
         </div>
         <div class="half-width">
@@ -41,7 +42,7 @@
           <output name="ratingoutput">10</output>
         </div>
         <label for="review">Текст отзыва</label>
-        <textarea name="review" rows="5">Это было просто мяу!</textarea>
+        <textarea name="review" rows="5"></textarea>
         </fieldset>
         <fieldset>
         <legend>Оценка отеля</legend>
@@ -54,13 +55,14 @@
           <input type="text" name="arrival_date" required placeholder="В формате дд-мм-гггг">
         </div>
         <div class="one-third-width">
-          <label for="color">Цвет кроватки</label>
+          <label for="color">Цвет стен</label>
           <input type="color" name="color" value="#ff0000">
         </div>
         <div class="two-third-width">
           <label for="dish_rating">Оценка обедов</label>
           <select name="dish_rating">
-            <option name="super">Подушечки оближешь</option>
+            <option name="super">Хорошо</option>
+            <option name="bad">Плохо</option>
             </select>
         </div>
         <label for="fish">Самая вкусная рыба</label>
